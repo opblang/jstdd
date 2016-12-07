@@ -25,5 +25,5 @@ it('should pass if f2c return 10C for 50F', () => {
   let fahrenheit = 32
   let celcius = util.f2c(fahrenheit)
 
-  expect(celcius).to.eql(0)
+  expect(celcius).to.eql(50)
 })
