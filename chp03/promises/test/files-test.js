@@ -1,4 +1,5 @@
 require('chai').use(require('chai-as-promised'))
+
 let expect = require('chai').expect
 let linesCount = require('../src/files')
 
